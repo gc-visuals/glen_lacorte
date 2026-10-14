@@ -100,7 +100,7 @@
               href="#contact"
               class="hidden md:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-semibold rounded-full text-white bg-gradient-to-r from-brand-blue to-brand-purple hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_rgba(168,85,247,0.4)]"
             >
-              Let's Talk
+              Book Strategy Call
             </a>
           </div>
         </div>
@@ -110,25 +110,37 @@
     <!-- Hero Section -->
     <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <!-- Background glow effects -->
-      <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-purple/20 rounded-full blur-[100px] -z-10 mix-blend-screen pointer-events-none"></div>
-      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-blue/20 rounded-full blur-[100px] -z-10 mix-blend-screen pointer-events-none"></div>
+      <div
+        class="absolute top-1/4 left-1/4 w-96 h-96 bg-brand-purple/20 rounded-full blur-[100px] -z-10 mix-blend-screen pointer-events-none"
+      ></div>
+      <div
+        class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-blue/20 rounded-full blur-[100px] -z-10 mix-blend-screen pointer-events-none"
+      ></div>
 
-      <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-        
+      <div
+        class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-20"
+      >
         <!-- Left Column: Text Content -->
         <div class="w-full lg:w-1/2 flex flex-col items-start text-left z-10">
-          
-          <div class="inline-flex items-center px-4 py-2 rounded-full border border-brand-purple/30 bg-brand-purple/10 text-brand-purple text-sm font-semibold mb-8">
-            <span class="w-2 h-2 rounded-full bg-brand-purple mr-2 animate-pulse-slow"></span>
+          <div
+            class="inline-flex items-center px-4 py-2 rounded-full border border-brand-purple/30 bg-brand-purple/10 text-brand-purple text-sm font-semibold mb-8"
+          >
+            <span
+              class="w-2 h-2 rounded-full bg-brand-purple mr-2 animate-pulse-slow"
+            ></span>
             Short-form Video Editor for Creators & Podcasters
           </div>
 
-          <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
+          <h1
+            class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight"
+          >
             Turn your podcasts into <br class="hidden lg:block" />
             <span class="text-gradient">scroll-stopping shorts.</span>
           </h1>
 
-          <p class="mt-4 text-xl md:text-2xl text-gray-400 max-w-lg mb-10 leading-relaxed">
+          <p
+            class="mt-4 text-xl md:text-2xl text-gray-400 max-w-lg mb-10 leading-relaxed"
+          >
             I turn your long-form content into engaging TikToks, Reels, and
             YouTube Shorts with clean cuts, dynamic captions, and smooth pacing.
           </p>
@@ -139,8 +151,18 @@
               class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-full text-white bg-gradient-to-r from-brand-blue to-brand-purple hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(168,85,247,0.5)]"
             >
               Get a Free Quote
-              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              <svg
+                class="ml-2 w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
               </svg>
             </a>
             <a
@@ -155,12 +177,14 @@
         <!-- Right Column: Image with Glowing Backdrop -->
         <div class="w-full lg:w-1/2 relative mt-12 lg:mt-0">
           <!-- Background Glow Effect (The Neon Frame) -->
-          <div class="absolute -inset-0.5 bg-gradient-to-r from-brand-blue to-brand-purple rounded-2xl blur-xl opacity-40"></div>
-          
+          <div
+            class="absolute -inset-0.5 bg-gradient-to-r from-brand-blue to-brand-purple rounded-2xl blur-xl opacity-40"
+          ></div>
+
           <!-- Your Photo -->
-          <img 
-            src="glen_visual.jpeg" 
-            alt="Glen Lacorte - Video Editor" 
+          <img
+            src="D:\Profile Pic\glen_visual.jpeg"
+            alt="Glen Lacorte - Video Editor"
             class="relative z-10 w-full h-auto object-cover rounded-2xl border border-white/10 shadow-2xl"
           />
         </div>
@@ -395,7 +419,156 @@
 
         <!-- 3 Column Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-           <!-- Portfolio Item 1 -->
+          <!-- Portfolio Item 1.00 -->
+          <div
+            class="group relative rounded-2xl overflow-hidden cursor-pointer aspect-[9/16] bg-brand-dark border border-white/10 hover:border-brand-purple/50 transition-all duration-500"
+            onmouseenter="this.querySelector('video').play()"
+            onmouseleave="
+              this.querySelector('video').pause();
+              this.querySelector('video').currentTime = 0;
+            "
+          >
+            <!-- Interactive Hover Video (Replaced Static Image) -->
+            <video
+              src="https://uenllhkqsdkczrvnlsxc.supabase.co/storage/v1/object/public/gc%20visuals%20-%20video%20edits/Befor&After_podcast.mp4"
+              preload="metadata"
+              controls
+              loop
+              muted
+              playsinline
+              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-105"
+            ></video>
+
+            <!-- Play Button Overlay -->
+            <div
+              class="absolute inset-0 flex items-center justify-center pointer-events-none"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-brand-purple/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_30px_rgba(168,85,247,0.9)]"
+              >
+                <svg
+                  class="w-8 h-8 ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Text Overlay -->
+            <div
+              class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300 pointer-events-none"
+            >
+              <h4 class="text-xl font-bold text-white mb-1">Podcast Clip</h4>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 1.01 -->
+          <div
+            class="group relative rounded-2xl overflow-hidden cursor-pointer aspect-[9/16] bg-brand-dark border border-white/10 hover:border-brand-purple/50 transition-all duration-500"
+            onclick="
+              const v = this.querySelector('video');
+              if (v.paused) {
+                v.play();
+              } else {
+                v.pause();
+              }
+            "
+          >
+            <!-- The Video -->
+            <video
+              src="https://uenllhkqsdkczrvnlsxc.supabase.co/storage/v1/object/public/gc%20visuals%20-%20video%20edits/Befor&After_podcast.mp4"
+              preload="metadata"
+              loop
+              muted
+              playsinline
+              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-105"
+            ></video>
+
+            <!-- Play Button Overlay (Now hides when video is playing) -->
+            <div
+              class="absolute inset-0 flex items-center justify-center transition-opacity duration-300 group-[.video-playing]:opacity-0"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-brand-purple/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_30px_rgba(168,85,247,0.9)]"
+              >
+                <svg
+                  class="w-8 h-8 ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Text Overlay -->
+            <div
+              class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+            >
+              <h4 class="text-xl font-bold text-white mb-1">Podcast Clip</h4>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 1.02 -->
+          <div
+            class="group relative rounded-2xl overflow-hidden cursor-pointer aspect-[9/16] bg-brand-dark border border-white/10 hover:border-brand-purple/50 transition-all duration-500"
+            onmouseenter="this.querySelector('video').play()"
+            onmouseleave="
+              this.querySelector('video').pause();
+              this.querySelector('video').currentTime = 0;
+            "
+          >
+            <!-- The Video -->
+            <video
+              src="https://uenllhkqsdkczrvnlsxc.supabase.co/storage/v1/object/public/gc%20visuals%20-%20video%20edits/Befor&After_podcast.mp4"
+              preload="metadata"
+              controls
+              loop
+              muted
+              playsinline
+              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-500"
+            ></video>
+
+            <!-- Play Button Overlay (With a class name we can target to hide it) -->
+            <div
+              class="absolute inset-0 flex items-center justify-center transition-opacity duration-200 opacity-100 hover:opacity-0 hover:pointer-events-none"
+            >
+              <div
+                class="w-16 h-16 rounded-full bg-brand-purple/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_30px_rgba(168,85,247,0.9)]"
+              >
+                <svg
+                  class="w-8 h-8 ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Text Overlay -->
+            <div
+              class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300 pointer-events-none"
+            >
+              <h4 class="text-xl font-bold text-white mb-1">Podcast Clip</h4>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 1 -->
           <div
             class="group relative w-full h-full"
             onmouseenter="this.querySelector('video').play()"
@@ -441,29 +614,55 @@
               <h4 class="text-xl font-bold text-white mb-1">Basic Graphics Animation</h4>
             </div>
           </div>
-           <!-- Portfolio Item 2 -->
-          <div
-            class="group relative w-full h-full"
-            onmouseenter="this.querySelector('video').play()"
-            onmouseleave="
-              this.querySelector('video').pause();
-              this.querySelector('video').currentTime = 0;
-            "
-          >
-            <video
-              src="https://uenllhkqsdkczrvnlsxc.supabase.co/storage/v1/object/public/gc%20visuals%20-%20video%20edits/Befor&After_podcast.mp4"
-              preload="metadata"
-              controls
-              loop
-              muted
-              playsinline
-              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-500 [&:fullscreen]:opacity-100 [&:fullscreen]:object-contain"
-            ></video>
 
-            <!-- Play Button Overlay (Controlled entirely by the parent group) -->
+          <!-- Portfolio Item 2 -->
+          <div
+            class="group relative rounded-2xl overflow-hidden cursor-pointer aspect-[9/16] bg-brand-dark border border-white/10 hover:border-brand-blue/50 transition-all duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Talking Head Edit"
+              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity duration-500 group-hover:scale-105"
+            />
+
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div
+                class="w-16 h-16 rounded-full bg-brand-blue/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(59,130,246,0.6)] group-hover:shadow-[0_0_30px_rgba(59,130,246,0.9)]"
+              >
+                <svg
+                  class="w-8 h-8 ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
             <div
-              class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 opacity-100 group-hover:opacity-0"
+              class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
             >
+              <h4 class="text-xl font-bold text-white mb-1">
+                Talking-Head Video
+              </h4>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div
+            class="group relative rounded-2xl overflow-hidden cursor-pointer aspect-[9/16] bg-brand-dark border border-white/10 hover:border-brand-purple/50 transition-all duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1516280440502-3c2247164ff3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Tech Review Edit"
+              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 transition-opacity duration-500 group-hover:scale-105"
+            />
+
+            <div class="absolute inset-0 flex items-center justify-center">
               <div
                 class="w-16 h-16 rounded-full bg-brand-purple/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_30px_rgba(168,85,247,0.9)]"
               >
@@ -480,62 +679,15 @@
                 </svg>
               </div>
             </div>
-            <!-- Text Overlay -->
+
             <div
               class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
             >
-              <h4 class="text-xl font-bold text-white mb-1">Visual Storytelling</h4>
+              <h4 class="text-xl font-bold text-white mb-1">
+                Coach & Consultant Clip
+              </h4>
             </div>
           </div>
-
-
- <!-- Portfolio Item 3 -->
-          <div
-            class="group relative w-full h-full"
-            onmouseenter="this.querySelector('video').play()"
-            onmouseleave="
-              this.querySelector('video').pause();
-              this.querySelector('video').currentTime = 0;
-            "
-          >
-            <video
-              src="https://uenllhkqsdkczrvnlsxc.supabase.co/storage/v1/object/public/gc%20visuals%20-%20video%20edits/Befor&After_podcast.mp4"
-              preload="metadata"
-              controls
-              loop
-              muted
-              playsinline
-              class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-opacity duration-500 [&:fullscreen]:opacity-100 [&:fullscreen]:object-contain"
-            ></video>
-
-            <!-- Play Button Overlay (Controlled entirely by the parent group) -->
-            <div
-              class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 opacity-100 group-hover:opacity-0"
-            >
-              <div
-                class="w-16 h-16 rounded-full bg-brand-purple/90 flex items-center justify-center text-white transform group-hover:scale-110 transition-transform duration-300 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:shadow-[0_0_30px_rgba(168,85,247,0.9)]"
-              >
-                <svg
-                  class="w-8 h-8 ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <!-- Text Overlay -->
-            <div
-              class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-brand-dark to-transparent translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
-            >
-              <h4 class="text-xl font-bold text-white mb-1">Scroll-Stopping Hook & Motion Graphics</h4>
-            </div>
-          </div>
-
         </div>
 
         <div class="mt-16 text-center">
@@ -575,7 +727,6 @@
           Spend less time editing and more time creating. Let's discuss how I
           can turn your long-form content into engaging short-form videos.
         </p>
-
         <a href="mailto:glenhlacorte@gmail.com?subject=Project%20Inquiry">
           <button
             class="inline-flex items-center justify-center px-10 py-5 text-xl font-bold rounded-full text-white bg-gradient-to-r from-brand-blue to-brand-purple hover:scale-105 transition-all duration-300 shadow-[0_0_30px_rgba(168,85,247,0.5)]"
@@ -583,7 +734,7 @@
             Let's Work Together
           </button>
         </a>
-        
+
         <p class="mt-6 text-sm text-gray-500">
           Now accepting clients worldwide · US, UK, Canada & Australia
         </p>
@@ -625,7 +776,7 @@
               />
             </span>
           </a>
-         
+
           <!-- X / Twitter Icon -->
           <!--  <a href="#" class="text-gray-400 hover:text-white transition-colors">
             <span class="sr-only">Twitter</span>
